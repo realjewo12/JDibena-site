@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background: #2d093dee;
+    background: #1f3479ee;
     color: #fff;
     padding: 1rem 0;
     text-align: center;
@@ -35,7 +35,7 @@ nav a {
     background: #fff;
     padding: 20px 20px;
     text-align: center;
-    border-bottom: 3px solid #691169;
+    border-bottom: 3px solid #3498db;
 }
 
 #hero h1 {
@@ -56,9 +56,9 @@ nav a {
 /* Button Styling */
 button {
     text-decoration: none;
-    color: #691169;
+    color: #3498db;
     padding: 10px 20px;
-    border: 2px solid #691169;
+    border: 2px solid #3498db;
     border-radius: 5px;
     font-weight: bold;
     transition: 0.3s;
@@ -67,7 +67,7 @@ button {
 }
 
 button:hover {
-    background: #691169;
+    background: #3498db;
     color: #fff;
 }
 
@@ -80,15 +80,93 @@ button:hover {
 
 .btn-secondary {
     text-decoration: none;
-    color: #691169;
+    color: #3498db;
     padding: 10px 20px;
-    border: 2px solid #691169;
+    border: 2px solid #3498db;
     border-radius: 5px;
     font-weight: bold;
     transition: 0.3s;
 }
 
 .btn-secondary:hover {
-    background: #691169;
+    background: #3498db;
     color: #fff;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.project-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    border-top: 4px solid #3498db;
+    transition: transform 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.badge {
+    display: inline-block;
+    background: #e1ecf4;
+    color: #39739d;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.btn-small {
+    display: inline-block;
+    margin-top: 15px;
+    color: #3498db;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.status-badge {
+    font-size: 0.7rem;
+    background: #f39c12;
+    color: #fff;
+    padding: 2px 8px;
+    border-radius: 12px;
+    text-transform: uppercase;
+}
+
+.card-features h4 {
+    font-size: 0.9rem;
+    margin: 15px 0 5px 0;
+    color: #2c3e50;
+}
+
+.card-features ul {
+    padding-left: 20px;
+    margin: 0;
+    font-size: 0.85rem;
+    color: #666;
+}
+
+.card-features li {
+    margin-bottom: 4px;
+}
+
+.skills-tags {
+    margin-top: 10px;
 }
