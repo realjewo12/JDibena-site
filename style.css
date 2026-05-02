@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background: #2c3e50;
+    background: #2d093dee;
     color: #fff;
     padding: 1rem 0;
     text-align: center;
@@ -33,9 +33,9 @@ nav a {
 /* Hero Section */
 #hero {
     background: #fff;
-    padding: 60px 20px;
+    padding: 20px 20px;
     text-align: center;
-    border-bottom: 3px solid #3498db;
+    border-bottom: 3px solid #691169;
 }
 
 #hero h1 {
@@ -55,7 +55,7 @@ nav a {
 
 /* Button Styling */
 button {
-    background: #3498db;
+    background: #1e6940;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -65,5 +65,5 @@ button {
 }
 
 button:hover {
-    background: #2980b9;
+    background: #2f8f2f;
 }
