@@ -67,3 +67,25 @@ button {
 button:hover {
     background: #2f8f2f;
 }
+
+.hero-btns {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.btn-secondary {
+    text-decoration: none;
+    color: #3498db;
+    padding: 10px 20px;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-secondary:hover {
+    background: #3498db;
+    color: #fff;
+}
