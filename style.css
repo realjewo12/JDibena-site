@@ -55,17 +55,20 @@ nav a {
 
 /* Button Styling */
 button {
-    background: #1e6940;
-    color: #fff;
+    text-decoration: none;
+    color: #691169;
     padding: 10px 20px;
-    border: none;
+    border: 2px solid #691169;
     border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
     cursor: pointer;
     font-size: 1rem;
 }
 
 button:hover {
-    background: #2f8f2f;
+    background: #691169;
+    color: #fff;
 }
 
 .hero-btns {
@@ -77,15 +80,15 @@ button:hover {
 
 .btn-secondary {
     text-decoration: none;
-    color: #3498db;
+    color: #691169;
     padding: 10px 20px;
-    border: 2px solid #3498db;
+    border: 2px solid #691169;
     border-radius: 5px;
     font-weight: bold;
     transition: 0.3s;
 }
 
 .btn-secondary:hover {
-    background: #3498db;
+    background: #691169;
     color: #fff;
 }
