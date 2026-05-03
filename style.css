@@ -1,15 +1,24 @@
+:root {
+    --primary: #324851;      /* Charcoal Blue */
+    --secondary: #34675C;    /* Deep Pine */
+    --accent: #86AC41;       /* Leaf Green */
+    --neutral: #7DA3A1;      /* Muted Sage */
+    --bg-light: #f4f7f6;     /* Background tint */
+    --white: #ffffff;
+}
+
 /* Base Styles */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     margin: 0;
-    color: #333;
-    background-color: #f4f4f9;
+    color: var(--primary);
+    background-color: var(--bg-light);
 }
 
 header {
-    background: #1f3479ee;
-    color: #fff;
+    background: var(--primary);
+    color: var(--white);
     padding: 1rem 0;
     text-align: center;
 }
@@ -25,17 +34,18 @@ nav ul li {
 }
 
 nav a {
-    color: #fff;
+    color: var(--white);
     text-decoration: none;
     font-weight: bold;
 }
 
 /* Hero Section */
 #hero {
-    background: #fff;
-    padding: 20px 20px;
+    background: var(--primary); /* Changed to primary for visual depth */
+    color: var(--white);        /* Ensure text is readable */
+    padding: 60px 20px;         /* Increased padding slightly for better spacing */
     text-align: center;
-    border-bottom: 3px solid #3498db;
+    border-bottom: 3px solid var(--secondary);
 }
 
 #hero h1 {
@@ -48,17 +58,18 @@ nav a {
     max-width: 800px;
     margin: 40px auto;
     padding: 20px;
-    background: #fff;
+    background: var(--white);
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     border-radius: 8px;
 }
 
 /* Button Styling */
 button {
+    background: transparent;
     text-decoration: none;
-    color: #3498db;
+    color: var(--accent);
     padding: 10px 20px;
-    border: 2px solid #3498db;
+    border: 2px solid var(--accent);
     border-radius: 5px;
     font-weight: bold;
     transition: 0.3s;
@@ -67,8 +78,8 @@ button {
 }
 
 button:hover {
-    background: #3498db;
-    color: #fff;
+    background: var(--accent);
+    color: var(--white);
 }
 
 .hero-btns {
@@ -80,19 +91,20 @@ button:hover {
 
 .btn-secondary {
     text-decoration: none;
-    color: #3498db;
+    color: var(--accent);
     padding: 10px 20px;
-    border: 2px solid #3498db;
+    border: 2px solid var(--accent);
     border-radius: 5px;
     font-weight: bold;
     transition: 0.3s;
 }
 
 .btn-secondary:hover {
-    background: #3498db;
-    color: #fff;
+    background: var(--accent);
+    color: var(--white);
 }
 
+/* Projects Section */
 .project-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -102,11 +114,11 @@ button:hover {
 }
 
 .project-card {
-    background: #fff;
+    background: var(--white);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-    border-top: 4px solid #3498db;
+    border-top: 4px solid var(--secondary);
     transition: transform 0.3s;
 }
 
@@ -116,8 +128,8 @@ button:hover {
 
 .badge {
     display: inline-block;
-    background: #e1ecf4;
-    color: #39739d;
+    background: var(--neutral);
+    color: var(--white);
     padding: 5px 10px;
     border-radius: 4px;
     font-size: 0.8rem;
@@ -128,7 +140,7 @@ button:hover {
 .btn-small {
     display: inline-block;
     margin-top: 15px;
-    color: #3498db;
+    color: var(--accent);
     text-decoration: none;
     font-size: 0.9rem;
     font-weight: bold;
@@ -143,8 +155,8 @@ button:hover {
 
 .status-badge {
     font-size: 0.7rem;
-    background: #f39c12;
-    color: #fff;
+    background: var(--accent);
+    color: var(--white);
     padding: 2px 8px;
     border-radius: 12px;
     text-transform: uppercase;
@@ -153,14 +165,14 @@ button:hover {
 .card-features h4 {
     font-size: 0.9rem;
     margin: 15px 0 5px 0;
-    color: #2c3e50;
+    color: var(--primary);
 }
 
 .card-features ul {
     padding-left: 20px;
     margin: 0;
     font-size: 0.85rem;
-    color: #666;
+    color: var(--primary);
 }
 
 .card-features li {
