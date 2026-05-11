@@ -6,7 +6,7 @@ A data-driven portfolio ecosystem documenting my journey from Technical Instruct
 This project follows a **Logic-First SDLC**. It isn't just a static website; it is a full-stack system designed to manage and showcase professional software, web development, and data science projects.
 
 ## Tech Stack (Evolutionary)
-- **Phase 1 (Current):** HTML5, CSS3, JavaScript (Static MVP)
+- **Phase 1 (Current):** HTML5, CSS3, JavaScript (Responsive Web Design)
 - **Phase 2 (Planned):** Node.js, Express, MySQL (Dynamic Integration)
 - **Phase 3 (Planned):** AWS/Cloud Deployment
 
