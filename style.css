@@ -228,3 +228,9 @@ button:hover {
         width: 80%; /* Make buttons wider for easier tapping */
     }
 }
+
+/* Mobile-Friendly Touch Targets */
+nav a, .btn-small, .btn-secondary, button {
+    padding: 12px 20px; /* Increased padding for better thumb-tapping */
+    display: inline-block; 
+}
