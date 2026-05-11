@@ -201,3 +201,30 @@ button:hover {
     font-size: 4rem;
     color: var(--neutral); /* Uses muted sage for a subtle look */
 }
+
+/* Media Query for Tablets and Phones */
+@media (max-width: 768px) {
+    nav ul {
+        display: flex;
+        flex-direction: column; /* Stack links vertically */
+        padding: 10px 0;
+    }
+
+    nav ul li {
+        margin: 10px 0; /* Add space between stacked links */
+        text-align: center;
+    }
+
+    #hero h1 {
+        font-size: 1.8rem; /* Shrink text so it doesn't wrap awkwardly */
+    }
+
+    .hero-btns {
+        flex-direction: column; /* Stack buttons vertically */
+        align-items: center;
+    }
+
+    button, .btn-secondary {
+        width: 80%; /* Make buttons wider for easier tapping */
+    }
+}
