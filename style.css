@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     --primary: #324851;      /* Charcoal Blue */
     --secondary: #34675C;    /* Deep Pine */
