@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Projects by J. Dibena — Tailor's Assistant System and The Architect's Ledger.">
+    <title>Projects | J. Dibena</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">J. Dibena</div>
+            <ul>
+                <li><a href="about.html"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="cv.html"><i class="fas fa-file-alt"></i> CV</a></li>
+                <li><a href="projects.html" class="active"><i class="fas fa-briefcase"></i> Projects</a></li>
+                <li><a href="https://www.linkedin.com/in/jeanne-grace-dibena-bwame-epse-fankam-922a21379/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="projects">
+        <h2>Ongoing Projects</h2>
+        <div class="project-grid">
+
+            <!-- Project Card 1: Tailor's Assistant System -->
+            <div class="project-card">
+                <div class="card-header">
+                    <i class="fas fa-ruler-combined"></i>
+                    <h3>Tailor's Assistant System</h3>
+                    <span class="status-badge">Console MVP</span>
+                </div>
+                <p>A domain-specific tool built to digitalize workshop operations. It manages client measurement profiles, tracks clothing orders from request to delivery, and prototypes inventory control for fashion micro-businesses.</p>
+                <div class="skills-tags">
+                    <span class="badge">Java JDK 17</span>
+                    <span class="badge">CRUD</span>
+                    <span class="badge">Object-Oriented Programming</span>
+                </div>
+                <div class="card-features">
+                    <h4>Key Milestones:</h4>
+                    <ul>
+                        <li>Measurement & Order Linkage logic</li>
+                        <li>Status Tracking (Request to Delivery)</li>
+                        <li>CSV/JSON Export Prototype</li>
+                    </ul>
+                </div>
+                <div class="card-links">
+                    <a href="https://github.com/realjewo12/TailorWorkshopApp" target="_blank" rel="noopener noreferrer" class="btn-small"><i class="fab fa-github"></i> Source Code</a>
+                </div>
+            </div>
+
+            <!-- Project Card 2: The Architect's Ledger -->
+            <div class="project-card">
+                <div class="card-header">
+                    <i class="fas fa-server"></i>
+                    <h3>The Architect's Ledger</h3>
+                    <span class="status-badge">Sprint 1 Completed</span>
+                </div>
+                <p>A professional portfolio ecosystem documenting a transition into Software Architecture. Built using an Agile approach, this system evolves from a static frontend to a dynamic full-stack integration.</p>
+                <div class="skills-tags">
+                    <span class="badge">JavaScript</span>
+                    <span class="badge">Agile/Scrum</span>
+                    <span class="badge">Git</span>
+                    <span class="badge">Trello</span>
+                </div>
+                <div class="card-features">
+                    <h4>Key Milestones:</h4>
+                    <ul>
+                        <li>Semantic HTML5 & Responsive CSS3</li>
+                        <li>Version Control with GitHub Actions</li>
+                        <li>Planned: Node.js & MySQL Integration</li>
+                    </ul>
+                </div>
+                <div class="card-links">
+                    <a href="https://github.com/realjewo12/JDibena-site" target="_blank" rel="noopener noreferrer" class="btn-small"><i class="fab fa-github"></i> Source Code</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; <span id="current-year"></span> J. Dibena. All rights reserved.</p>
+    </footer>
+
+    <button id="backToTop" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+    <script src="script.js"></script>
+</body>
+</html>
